@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+nav {
+  display: flex; 
+  align-items: center;
+  background-color: white; /* #21222a; */
+  padding: 10px 20px;
+  color: black;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.logo-img {
+  width: 40px;
+  margin-right: 5px;
+}
+
+h3 {
+  margin-right: auto;
+  color:  #61dafb; 
+}
+
+h4 {
+  color:  #deebf8;
+}
+
+.container {
+  color: black; /* #282D35; */
+}
+
+main {
+  padding: 30px;
+  background: url(./assets/logo192.png) no-repeat  115%;
+  height: 100vh;
+}
+
+ul > li {
+  padding-block: 10px;
+}
+
+::marker {
+  font-size: 18px;
+  color: #61dafb;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.nav--dark {
+  background-color: black;
+}
+
+.main-section-dark {
+  background: #282D35;
+}
+
+.dark {
+  color: white;
+}
+
+.toggle--slider {
+  cursor: pointer;
+  height: 20px;
+  width: 40px;
+  background-color: black;
+  border-radius: 20px;
+  margin: 0 10px;
+  border: 1px ridge white;
+}
+
+.toggle--slider-circle {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 20px;
+  animation-fill-mode: forwards;
+  transition: ease-in-out .5s;
+}
+
+@keyframes toggler {
+  from {
+    translate: 0px;
+  }
+
+  to {
+    translate: 20px;
+  }
+}
